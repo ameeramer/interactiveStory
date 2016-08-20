@@ -23,6 +23,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvn-FL-w5w">
                                 <rect key="frame" x="246" y="520" width="108" height="30"/>
                                 <state key="normal" title="Start Adventure"/>
+                                <connections>
+                                    <segue destination="KPP-rm-WIW" kind="show" id="wqb-Mo-Gcl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -40,6 +43,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="909" y="-3"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K3O-oi-bhI">
+            <objects>
+                <viewController id="KPP-rm-WIW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fFk-KJ-gbf"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Up-aP-Bwa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W7T-zE-qMA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hy1-Lw-LU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="-3"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8PT-Fb-EaV">
