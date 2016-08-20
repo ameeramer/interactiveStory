@@ -24,7 +24,7 @@
                                 <rect key="frame" x="246" y="520" width="108" height="30"/>
                                 <state key="normal" title="Start Adventure"/>
                                 <connections>
-                                    <segue destination="KPP-rm-WIW" kind="show" id="wqb-Mo-Gcl"/>
+                                    <segue destination="KPP-rm-WIW" kind="show" identifier="startAdventure" id="wqb-Mo-Gcl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="909" y="-3"/>
         </scene>
-        <!--View Controller-->
+        <!--Page Controller-->
         <scene sceneID="K3O-oi-bhI">
             <objects>
-                <viewController id="KPP-rm-WIW" sceneMemberID="viewController">
+                <viewController id="KPP-rm-WIW" customClass="PageController" customModule="interactiveStory" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fFk-KJ-gbf"/>
                         <viewControllerLayoutGuide type="bottom" id="7Up-aP-Bwa"/>
